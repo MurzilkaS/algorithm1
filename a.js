@@ -3,18 +3,21 @@
 first number = 1, last number =135,
 loop(for loop)
 console.log(the solution)*/
-//for (let i = 1; i <= 135; i++){
- //   console.log (i);}
+/*for (let i = 1; i <= 135; i++){
+    console.log (i);}*/
 
 //2. Print Odd Numbers 1 - 135.Write a program using JavaScript that will
  //print all the odd numbers from 1 to 135.
 //Print odd number firstElement = 1 lastElement = 135
-//For loop
+//Create For loop from 1 to 135 
+// check if element is odd numbers,
 //console.log(the solution)
- //     i = 3;
-// for(let i=1;i<=135;i+=2){
-//     console.log(i);
-// }
+ 
+ /*for (let i = 1; i <= 135; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
 
 /*3. Sum of Printed Numbers
 
@@ -36,11 +39,12 @@ You are NOT allowed to use an array to solve this exercise.*/
 //loop
 //the result to the console
 
- //let sum = 0;
+ /*let sum = 0;
 
-// for(let x=0; x<135; x++){
-//  sum = sum+x;
-//console.log('Number is:'+x+'Sum:'+x');}
+ for(let x=0; x<135; x++){
+ sum = sum+x;
+console.log ('Number is:'+x+'Sum:'+x');
+}
 
 /*4. Print the elements of an array.Given an array X = [1,4,2,12], write a program that will iterate 
 through the array and print all numbers on the screen. Your program should work with arrays of all sizes.*/
